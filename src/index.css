@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+body{
+  height: auto; 
+  overflow-x: hidden;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.topbar{
+  display: grid;
+  grid-template-columns:  20vw 40vw 40vw;
+  align-items: center;
+  padding-top: 7px;
+  /* position: sticky;
+  height: 50px;
+  top: 2px; */
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+body::-webkit-scrollbar{
+  width: 5px;
+}
+body::-webkit-scrollbar-track{
+  background-color: #f1f1f1;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: gray;
+}
+
+.sidebar::-webkit-scrollbar{
+  width: 5px;
+}
+.sidebar::-webkit-scrollbar-track{
+ background-color: #f1f1f1;
+}
+.sidebar::-webkit-scrollbar-thumb{
+ background-color: gray;
+}
+.share{
+  box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68)
+}
+
+.profileBody{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.profileBottom {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.loginwrapper{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
